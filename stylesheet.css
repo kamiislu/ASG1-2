@@ -1,11 +1,16 @@
 body{
     background-color:#2C2F33 ;
 }
+h1{
+    color:#7289da;
+}
 .nav{
     background-color: #23272a;
     display: flex;
     justify-content: space-around;
     align-content: flex-start;
+    font-size: large;
+    font-family: 'Rubik', sans-serif;;
 }
 .selected{
     color:#99aab5;
@@ -43,4 +48,54 @@ body{
       animation-name: cool;
       animation-duration: 2s;
       animation-iteration-count: infinite;
+}
+@media only screen and (max-width: 500px){
+    .nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        opacity: 0.6;
+    }
+}
+@media only screen and (max-width: 680px){
+    .innerbox a{
+        font-size: 30px;
+    }
+}
+.boxes{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.innerbox{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    transition: 0.3s;
+    flex-grow: 1;
+}
+.innerbox a{
+    color: black;
+}
+.innerbox:hover{
+    color:black;
+    background-color: white;
+}
+#about-me{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#about-me-text{
+    color:white;
+    font-size: large;
+    padding-left: 20px;
+}
+.experience{
+    display: flex;
 }
