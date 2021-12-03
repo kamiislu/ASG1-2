@@ -1,4 +1,4 @@
-# ID Assignment 1 - Luismika Lim - S10223527
+# My Portfolio Website
 
 Website is intended to be a portfolio website for future employers or for myself to display my accolades, past work experience, skills and knowledge, and proof of my work with my projects. The website is segregated to easy digestible parts with clear concise information for the reader. The website is designed in such a way that will help the reader get to know me better.
 
