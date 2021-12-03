@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Portfolio Website</h1>
+        <div class= "nav">
+            <b id = "my-name">Mika</b>
+            <a href="index.html" class="unselected">Main Menu</a>
+            <a href="about-me.html" class="unselected">About Me</a>
+            <a href="experience.html" class="unselected">Work Experience</a>
+            <a href="skills.html" class="unselected">Skills</a>
+            <strong class="selected">Contact Me</strong>
+        </div>
+        <div id="contact">
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Singapore</option>
+                <option value="canada">Malaysia</option>
+                <option value="usa">USA</option>
+                </select>
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Your E-mail..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+            </form>
+        </div>
+    </body>
+</html>

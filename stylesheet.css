@@ -10,7 +10,7 @@ h1{
     justify-content: space-around;
     align-content: flex-start;
     font-size: large;
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Rubik', sans-serif;
 }
 .selected{
     color:#99aab5;
@@ -101,7 +101,7 @@ h1{
 }
 #about-me-text{
     color:white;
-    font-size: large;
+    font-size: 25px;
     padding-left: 20px;
 }
 .experience{
@@ -141,3 +141,72 @@ h1{
 #NS p{
     display:flex;
 }
+#skills{
+    display:flex;
+    flex-wrap: wrap;
+}
+#skills-text{
+    float:left;
+    width: 85%;
+    font-size: 25px;
+    color:white;
+}
+#projects{
+    float: right;
+    width:15%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: Red;
+}
+#DP{
+    width: 100px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Gwendolyn', cursive;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #7289da;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  #contact {
+    border-radius: 5px;
+    background-color:#99aab5;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+  }
+  #completed{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:100px;
+      font-size: 60px;
+  }
+  #return{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+  }
